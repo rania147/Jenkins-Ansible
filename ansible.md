@@ -18,8 +18,7 @@ There are two ways to install Ansible on Debian 11.
 
 -   Using pip command
 
-And in this installation, we will choose the first option, first we
-update the repository
+And in this installation, we will choose the first option, first we update the repository
 
 ***\$ Sudo apt install***
 
