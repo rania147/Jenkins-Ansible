@@ -89,5 +89,5 @@ our configuration is completely successful.
 ![](media/image10.png){width="5.017101924759405in"
 height="1.2334405074365704in"}
 
-\[1\]  **[centos guide](https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-fedora-or-centos)**.
+\[1\]  **[centos guide](https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-fedora-or-centos)**.\bar 
 \[2\] **[configuration docs](https://www.youtube.com/watch?v=cEnq94dYrSg&ab_channel=LinuxHelp)**.
