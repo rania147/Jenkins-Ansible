@@ -1,14 +1,13 @@
-**Ansible :**
+#Ansible :
 
--   Ansible is an IT automation tool that automates configuration
-    management, cloud provisioning, deployment and orchestration.
+- Ansible is an IT automation tool that automates configuration
+  management, cloud provisioning, deployment and orchestration.
 
--   ![](media/image1.jpg){width="4.934722222222222in"
-    height="3.06875in"}The core of Ansible playbooks are written in
-    YAML. (Should really do a section on YAML as we have seen this a few
-    times)
+![](media/image1.jpg){width="4.934722222222222in" height="3.06875in"}
+ - The core of Ansible playbooks are written in
+   YAML. (Should really do a section on YAML as we have seen this a few times)
 
-**Install and configure ansible on Debian 11 :**
+## Install and configure ansible on Debian 11 :**
 
 By default, the Ansible package is not included in the Debian default
 repository.
@@ -42,9 +41,9 @@ the Ansible version with the following command :
 ![](media/image4.png){width="6.099126202974628in"
 height="1.3734601924759404in"}
 
-**Install and configure ansible on CentOS 7 :**
+##Install and configure ansible on CentOS 7 :**
 
-## Step 1 --- Installing Ansible
+#### Step 1 --- Installing Ansible
 
 First, we have to check that the centos epel repository is installed
 using this command :
@@ -63,7 +62,7 @@ height="1.8569444444444445in"}
 
 ![](media/image7.png){width="6.3in" height="0.9819444444444444in"}
 
-## Step 2 --- Configuring Ansible Hosts
+#### Step 2 --- Configuring Ansible Hosts
 
 To test Ansible, we need to generate an ssh key on my local machine,
 once completed we have to copy the public key in client server by using
@@ -90,7 +89,5 @@ our configuration is completely successful.
 ![](media/image10.png){width="5.017101924759405in"
 height="1.2334405074365704in"}
 
-\[1\]
-<https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-fedora-or-centos>
-
-\[2\] https://www.youtube.com/watch?v=cEnq94dYrSg&ab_channel=LinuxHelp
+\[1\]  **[centos guide](https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-fedora-or-centos)**.
+\[2\] **[configuration docs](https://www.youtube.com/watch?v=cEnq94dYrSg&ab_channel=LinuxHelp)**.
