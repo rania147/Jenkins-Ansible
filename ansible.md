@@ -38,7 +38,8 @@ the Ansible version with the following command :
 ***\$ ansible \--version***
 
 ![](media/image4.png)
-##Install and configure ansible on CentOS 7 :**
+
+## Install and configure ansible on CentOS 7 :
 
 #### Step 1 : Installing Ansible
 
