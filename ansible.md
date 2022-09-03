@@ -7,7 +7,7 @@
  - The core of Ansible playbooks are written in
    YAML. (Should really do a section on YAML as we have seen this a few times)
 
-## Install and configure ansible on Debian 11 :**
+## Install and configure ansible on Debian 11 :
 
 By default, the Ansible package is not included in the Debian default
 repository.
@@ -40,7 +40,7 @@ the Ansible version with the following command :
 ![](media/image4.png)
 ##Install and configure ansible on CentOS 7 :**
 
-#### Step 1 --- Installing Ansible
+#### Step 1 : Installing Ansible
 
 First, we have to check that the centos epel repository is installed
 using this command :
@@ -56,7 +56,7 @@ Once the repository is installed, we can install ansible with yum:
 ![](media/image6.png)
 ![](media/image7.png)
 
-#### Step 2 --- Configuring Ansible Hosts
+#### Step 2 : Configuring Ansible Hosts
 
 To test Ansible, we need to generate an ssh key on my local machine,
 once completed we have to copy the public key in client server by using
