@@ -3,7 +3,7 @@
 - Ansible is an IT automation tool that automates configuration
   management, cloud provisioning, deployment and orchestration.
 
-![](media/image1.jpg){width="4.934722222222222in" height="3.06875in"}
+![](media/image1.jpg)
  - The core of Ansible playbooks are written in
    YAML. (Should really do a section on YAML as we have seen this a few times)
 
