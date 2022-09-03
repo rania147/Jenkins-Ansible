@@ -70,7 +70,7 @@ these commands
 
 Next we need to configure ansible hosts by adding the client server ip
 
-***vi /etc/ansible/hosts***
+***\$ vi /etc/ansible/hosts***
 
 ![](media/image9.png)
 
