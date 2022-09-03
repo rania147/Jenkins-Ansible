@@ -55,7 +55,6 @@ Once the repository is installed, we can install ansible with yum:
 ***\$ sudo yum install ansible***
 
 ![](media/image6.png)
-
 ![](media/image7.png)
 
 #### Step 2 --- Configuring Ansible Hosts
