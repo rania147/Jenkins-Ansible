@@ -25,22 +25,20 @@ update the repository
 
 ***\$ Sudo apt install vim***
 
-![](media/image2.png){width="6.3in" height="4.454166666666667in"}
+![](media/image2.png)
 
 Then using apt command, install ansible in debian 11
 
 ***\$ sudo apt install ansible***
 
-![](media/image3.png){width="6.3in" height="2.5166666666666666in"}
+![](media/image3.png)
 
 Once the Ansible is installed, we can determine the directory and verify
 the Ansible version with the following command :
 
 ***\$ ansible \--version***
 
-![](media/image4.png){width="6.099126202974628in"
-height="1.3734601924759404in"}
-
+![](media/image4.png)
 ##Install and configure ansible on CentOS 7 :**
 
 #### Step 1 --- Installing Ansible
@@ -50,17 +48,15 @@ using this command :
 
 ***\$ sudo yum install epel-release***
 
-![](media/image5.png){width="5.21711832895888in"
-height="3.025262467191601in"}
+![](media/image5.png)
 
 Once the repository is installed, we can install ansible with yum:
 
 ***\$ sudo yum install ansible***
 
-![](media/image6.png){width="5.966666666666667in"
-height="1.8569444444444445in"}
+![](media/image6.png)
 
-![](media/image7.png){width="6.3in" height="0.9819444444444444in"}
+![](media/image7.png)
 
 #### Step 2 --- Configuring Ansible Hosts
 
@@ -72,22 +68,20 @@ these commands
 
 ***\$ ssh-copy-id root@192.168.129.129***
 
-![](media/image8.png){width="6.3in" height="4.039583333333334in"}
+![](media/image8.png)
 
 Next we need to configure ansible hosts by adding the client server ip
 
 ***vi /etc/ansible/hosts***
 
-![](media/image9.png){width="4.292038495188102in"
-height="1.8918307086614172in"}
+![](media/image9.png)
 
 To test the configuration, execute this command below and as you can see
 our configuration is completely successful.
 
 ***\$ ansible -m ping all***
 
-![](media/image10.png){width="5.017101924759405in"
-height="1.2334405074365704in"}
+![](media/image10.png)
 
 # Useful Link
 
