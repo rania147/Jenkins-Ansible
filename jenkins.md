@@ -55,7 +55,7 @@ following command:
 ***\$ apt-key add jenkins.io.key***
 
 ![](images/image4.png)
-**Step 3: Install Jenkins on Debian**
+## Step 3: Install Jenkins on Debian
 
 Once Jenkins PPA has been added, you can update the repository cache
 with the following command:
