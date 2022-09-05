@@ -1,6 +1,6 @@
-#Jenkins
+# Jenkins
 
-##What is Jenkins?
+## What is Jenkins?
 
 Jenkins is an open-source automation tool is created using Java
 programming language. For the initial setup, it facilitates users with
@@ -12,7 +12,7 @@ job or a pipeline.
 
 ![](images/image1.jpg)
 
-##Jenkins plugins:
+## Jenkins plugins:
 
 Jenkins plugins work by creating or extending an extension point, which
 hooks into a specific part of the build process.
@@ -27,12 +27,12 @@ that can Jenkins build for us.
 We have two kinds of pipelines: declarative pipeline and scripted
 pipeline.
 
-##Installation of Jenkins on Debian:
+## Installation of Jenkins on Debian:
 
 Jenkins is a Java-based tool so Java must be installed in your system.
 If not installed, you can install it using the following command:
 
-##Step 1: Install java
+## Step 1: Install java
 
 ***\$ apt-get install default-jre gnupg2 apt-transport-https wget -y***
 
@@ -45,7 +45,7 @@ command:
 
 ![](images/image3.png)
 
-**Step 2: Add Jenkins PPA**
+## Step 2: Add Jenkins PPA
 
 First, download and add the GPG key, Next add the Jenkins PPA with the
 following command:
@@ -74,14 +74,14 @@ After the installation, verify the Jenkins status using this command:
 
 ![](images/image6.png)
 
-By default, Jenkins listens on port 8080. You can check it with the
+By default, Jenkin s listens on port 8080. You can check it with the
 following command:
 
 ***ss -antpl \| grep 8080 ss -antpl \| grep 8080***
 
 ![](images/image7.png)
 
-##Step 4: Access Jenkins Web UI
+## Step 4: Access Jenkins Web UI
 
 To access the Jenkins web interface, open your web browser and type the
 URL http://your-server-ip:8080. You should see the following page:
@@ -91,6 +91,6 @@ URL http://your-server-ip:8080. You should see the following page:
 And after installing suggested plugins and creating the admin user this
 folowing page appear : represente jenkins dashboard
 
-#WEBOGRAPHY:
+# WEBOGRAPHY:
 
 https://www.howtoforge.com/how-to-install-jenkins-on-debian-11/
